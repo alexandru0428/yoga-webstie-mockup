@@ -1,0 +1,105 @@
+.flexHeader{
+    display: inline-flex;
+    justify-content: center;
+}
+.firstHeader{
+    background-image: url(/pictures/pexels-prasanthinturi-1051838.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 710px;
+}
+.firstHeader h1{
+    margin: 1em;
+}
+.firstHeader a{
+    color: black;
+    text-decoration: none;
+    font-family: Lato;
+    font-size: 3rem;
+}
+.firstHeader a:hover{
+    color: white;
+}
+.secondHeader{
+    font-family: Lato;
+    background-color: #B0C789;
+    width: 1210px;
+    height: 700px;
+}
+.secondHeader ul{
+    margin: 3em;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* .secondHeader li:first-child{
+    margin-right: auto;
+    margin-left: 0.75%;
+}
+.secondHeader li:nth-child(2){
+    margin-right: auto;
+}
+.secondHeader li:last-child{
+    margin-left: auto;
+} */
+.secondHeader ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+.secondHeader ul a:hover{
+    color: white;
+}
+.secondHeader ul li:last-child{
+    margin-top: -0.40em;
+}
+.secondHeader ul button{
+    color: black;
+    font-family: Lato;
+    font-size: 1.5rem;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 1em;
+    padding: 0.25rem 0.75rem 0.25rem 0.75rem;
+}
+.secondHeader ul button:hover{
+    cursor: pointer;
+    color: white;
+    border-color: white;
+
+}
+.secondHeader h1{
+    font-size: 6rem;
+    line-height: 105.6px;
+    letter-spacing: -1%;
+    margin-left: 0.95em;
+    margin-top: 1.5em;
+}
+.secondHeader p{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 48px;
+    letter-spacing: -1%;
+    width: 639px;
+    margin-left: 3em;
+
+}
+.secondHeader .joinBtn{
+    color: black;
+    font-family: Lato;
+    font-size: 1.5rem;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 1em;
+    padding: 0.25rem 0.75rem 0.25rem 0.75rem;
+    margin-left: 4em;
+    margin-top: 0.75em;
+}
+.secondHeader .joinBtn:hover{
+    cursor: pointer;
+    color: white;
+    border-color: white;
+
+}
